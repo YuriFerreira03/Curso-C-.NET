@@ -1,0 +1,15 @@
+﻿namespace HelloWord
+{
+    class Program
+    {
+        static void Main()
+        {
+            //diigtar nome do usuario e armazenar
+            System.Console.WriteLine("Digite seu nome: ");
+            string? nome = System.Console.ReadLine();
+            //mostrar o nome do usuario e mensagem de boas vindas
+            System.Console.WriteLine("Olá, " + nome + " Seja bem vindo!");
+
+        }
+    }
+}

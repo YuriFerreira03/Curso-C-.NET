@@ -1,0 +1,12 @@
+﻿namespace HelloWord
+
+
+{
+    class Biscoito
+    {
+        public void Comer()
+        {
+            Console.WriteLine("Biscoito comido");
+        }
+    }
+}

@@ -1,0 +1,15 @@
+﻿using HelloWord.teste1;
+using HelloWord;
+
+class Program
+{
+    static void Main()
+    {
+        string texto = "Hello World!";
+
+        bool verdade = texto.Contains("World");
+
+        Console.WriteLine(verdade);
+
+    }
+}

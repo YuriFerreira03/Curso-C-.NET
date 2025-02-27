@@ -1,0 +1,20 @@
+﻿using HelloWord.teste1;
+using HelloWord;
+using System.Globalization;
+
+class Program
+{
+    static void Main()
+    {
+        DateOnly date = new DateOnly(2021, 10, 10);
+
+        string DiaTexto = date.ToString("d MMMM yyyy", new CultureInfo ("pt-BR"));
+
+        DateTime hoje = DateTime.Now;
+
+
+
+        Console.WriteLine(DiaTexto);
+
+    }
+}
